@@ -1,0 +1,283 @@
+.titul {
+    color: darkseagreen;
+    text-align: center;
+    font-size: 100px;
+}
+.titul2 {
+    color: darkcyan;
+}
+.negritas {
+    color: rgb(31, 116, 87);
+}
+.h1 {
+    font-size: 30px; 
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body {
+    background-color: black;
+    
+}
+
+header {
+    background-image: url(imagenes/gta.png.png);
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+}
+h1 {
+    font-size: 70px;
+    color: blanchedalmond;
+    text-shadow: 0 0 40px rgb(255, 240, 240);
+}
+
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contenedor {
+    
+    background-color: darkgrey;
+    padding: 50px;
+    text-align: center;
+    
+}
+.yordy {
+    
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 0 70px 10px rgb(255, 240, 240);
+    border-radius: 10%;
+    
+}
+
+.holamundo {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0 0 30px 20px rgb(255, 227, 227);
+    
+}
+.textoyordy {
+    padding: 100px;
+    width: 60%;
+}
+.textmundo {
+    text-align: center;
+    font-size: 30px;
+    
+}
+.artistas {
+    text-align: center;
+    margin: auto;
+    
+}
+.artisimg {
+    border-radius: 30px;
+}
+.titulo3 {
+    color: darkgrey;
+}
+.disfrutomas {
+    text-align: center;
+}
+.aspiraciones{
+    background-color: darkgray;
+    color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+h2 {
+    color: beige;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 0 0 30px rgb(255, 233, 233);
+}
+.titul4 {
+    font-size: 60px;
+}
+p {
+    color: beige;
+    text-align: center;
+    font-size: 30px;
+}
+.contenido {
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    background-color: darkgray;
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 30px white;
+    
+}
+
+
+.texto {
+    font-size: 30px;
+    color: antiquewhite;
+    }
+
+.box {
+    width: 100%;
+    height: 50%;
+    margin: 20px;
+    margin: 0;
+    background-image: url("https://assets.goal.com/images/v3/getty-2127982541/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2127982541.jpg?auto=webp&format=pjpg&width=1080&quality=60");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+
+}
+.textmadrid {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-shadow: 
+    1px 1px 0px black, 
+    -1px -1px 0px black,
+    1px -1px 0px black,
+    -1px 1px 0px black;
+}
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: #0008;
+}
+.continuacion {
+    background-color: darkgray;
+    text-align: center;
+    font-size: 100px;
+}
+.cristiano {
+    width: 100%;
+    height: 50%;
+    margin: 20px;
+    margin: 0;
+    background-image: url("https://assets.goal.com/images/v3/getty-2127982541/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2127982541.jpg?auto=webp&format=pjpg&width=1080&quality=60");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.opaco2 {
+    height: 100%;
+    width: 100%;
+    background-color: #0008;
+}
+.encuesta {
+    background-color: darkgray;
+    padding: 50px;
+}
+.titulocontac {
+    padding: 30px;
+    text-align: center;
+
+}
+.cuestionario {
+    text-align: center;
+    width: 100%;
+    padding: 100px;
+    background-color: #0008;
+
+
+}
+
+input {
+    width: 50%;
+    height: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 30px;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: rgb(53, 53, 53);
+    ;
+    border-color: black;
+    border-width: 10px;
+    
+}
+
+textarea {
+    min-width: 50%;
+    min-height: 100px;
+    font-family: sans-serif;
+    resize: none;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(53, 53, 53);
+    
+}
+input::placeholder {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 7px white;
+    color: white;
+    }
+textarea::placeholder {
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 8px white;
+    color: white;
+
+    
+    
+
+}
+.botonsito {
+    width: 25%;
+    height: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: 2px rgb(247, 255, 236);
+    transition: .3s ease;
+    background-color: black;
+    
+}
+button:hover {
+    border: 2px solid rgb(247, 255, 235);
+    box-shadow: 0 0 10px rgb(245, 255, 230);
+    color: rgb(245, 255, 230);
+    background-color: transparent;
+}
+.enviar {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 0 10px white;
+
+
+}
+.contacto {
+    width: 100%;
+    height: 70%;
+    margin: 20px;
+    margin: 0;
+    background-image: url("https://assets.goal.com/images/v3/getty-2127982541/crop/MM5DKMBQGU5DEOBRGU5G433XMU5DAORSGYYA====/GettyImages-2127982541.jpg?auto=webp&format=pjpg&width=1080&quality=60");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
